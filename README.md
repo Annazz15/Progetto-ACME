@@ -1,7 +1,8 @@
 # Progetto pagina web MachaPokè
-* corso web design ACME Novara
+* corso web design 1, ACME Novara
 
 * Link sito web creato: _[superlative cranachan](https://superlative-cranachan-d84123.netlify.app/)_
+
 
 In questo progetto ho voluto fare il restyle della pagina web del ristorante "MachaPokè".
 
