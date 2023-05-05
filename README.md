@@ -1,4 +1,4 @@
-# Progetto pagina web Macha Pokè
+# Progetto pagina web MachaPokè
 * corso web design acme
 
 
