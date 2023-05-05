@@ -14,3 +14,6 @@ L'obiettivo è quello di creare un sito web html responsive che comprendesse i p
 * Descrizione del ristorante (chi siamo, dove trovarci)
 * Descrizione dei prodotti offerti dal ristorante
 * Footer con contatti e profili social 
+
+
+Per riuscire a realizzarlo ho utilizzato:
