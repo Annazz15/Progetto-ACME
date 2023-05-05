@@ -16,4 +16,4 @@ L'obiettivo è quello di creare un sito web html responsive che comprendesse i p
 * Footer con contatti e profili social 
 
 
-Per riuscire a realizzarlo ho utilizzato:
+# Per riuscire a realizzarlo ho utilizzato:
