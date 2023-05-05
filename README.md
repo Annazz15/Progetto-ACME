@@ -1,4 +1,4 @@
-# Progetto pagina web Poke House
+# Progetto pagina web Macha Pokè
 * corso web design acme
 
 
