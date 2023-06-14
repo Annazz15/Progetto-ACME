@@ -1,102 +1,218 @@
+.logo {
+  max-width: 200px;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+.spacer {
+  height: 50px;
+}
+
+.spacer1 {
+  height: 30px;
+}
+
+/* Stili globali */
 body {
-  background-color: #f2f2f2;
-  color: #333;
   font-family: Arial, sans-serif;
-  font-size: 16px;
-  line-height: 1.5;
-}
-
-header {
-  background-color: #0077be;
-  color: #fff;
-  padding: 20px;
-}
-
-header h1 {
-  margin: 0;
-  font-size: 36px;
-}
-
-header nav {
-  margin-top: 10px;
-}
-
-header nav ul {
-  list-style: none;
   margin: 0;
   padding: 0;
 }
 
-header nav ul li {
-  display: inline-block;
-  margin-right: 20px;
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
 }
 
-header nav ul li a {
-  color: #fff;
-  text-decoration: none;
-  font-size: 18px;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #000;
+  font-weight: bold;
 }
 
-header nav ul li a:hover {
-  text-decoration: underline;
+p {
+  color: #333;
 }
 
-section.menu {
-  margin-top: 30px;
+/* Stili dell'intestazione */
+header {
+  background-color: #fff;
+  padding: 20px;
 }
 
-section.menu h2 {
-  color: #0077be;
+.navbar-brand {
   font-size: 24px;
+  font-weight: bold;
+  color: #0077be;
+}
+
+.navbar-nav li a {
+  color: #0077be;
+}
+
+/* Stili del hero */
+.hero {
+  background-color: #0077be;
+  padding: 10px 0;
+}
+
+.hero h1 {
+  font-size: 48px;
+  color: #fff;
   margin-bottom: 20px;
 }
 
-section.menu ul {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-}
-
-section.menu ul li {
-  margin-bottom: 30px;
-  padding: 20px;
-  background-color: #fff;
-  border-radius: 5px;
-}
-
-section.menu ul li h3 {
-  color: #ff5733; 
-  font-size: 20px;
-  margin-top: 0;
-}
-
-section.menu ul li p {
-  font-size: 16px;
-  line-height: 1.4;
-}
-
-.menu-item img {
-  width: 100%;
-  height: 200px; 
-  object-fit: cover;
-}
-
-footer {
-  background-color: #0077be;
+.hero p {
+  font-size: 18px;
   color: #fff;
-  padding: 20px;
-  text-align: center;
-  
 }
 
-copyright {
-text-align: center;  
-}
-
-a {
-  color: #0077be;
+.btn.btn-light.btn-lg {
+  background-color: #ff5733;
+  color: #fff;
+  font-size: 1.25rem;
+  padding: 12px 24px;
+  border-radius: 8px;
+  border: none;
   text-decoration: none;
+}
+
+/* Stili della sezione "Chi siamo" */
+.about {
+  background-color: #fff;
+  padding: 50px 0;
+}
+
+.about h2 {
+  font-size: 36px;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.about p {
+  color: #666;
+}
+
+/* Stili del carosello */
+.carousel-item img {
+  width: 100%;
+  height: auto;
+}
+
+/* Stili del menu */
+.menu {
+  background-color: #f8f8f8;
+  padding: 50px 0;
+}
+
+.menu h2 {
+  font-size: 36px;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.menu-item {
+  margin-bottom: 30px;
+}
+
+.menu-item h3 {
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.menu-item p {
+  color: #777;
+}
+
+/* Stili della sezione "Prenotazione" */
+.reservation {
+  background-color: #fff;
+  padding: 50px 0;
+}
+
+.reservation h2 {
+  font-size: 36px;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.reservation p {
+  color: #666;
+}
+
+/* Stili della sezione "Contatti" */
+.contact {
+  background-color: #f8f8f8;
+  padding: 50px 0;
+}
+
+.contact h2 {
+  font-size: 36px;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.contact p {
+  color: #777;
+}
+
+/* Stili del piede di pagina */
+.footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px 0;
   text-align: center;
-  margin-right: 50px;
+}
+
+.footer p {
+  margin: 0;
+  color: #fff;
+}
+
+.footer a {
+  color: #fff;
+}
+
+.social-icons {
+  margin-top: 20px;
+  text-align: center;
+  color: #fff;
+}
+
+.social-icon {
+  display: inline-block;
+  margin-right: 10px;
+  font-size: 24px;
+  color: #fff;
+}
+
+.social-icon:last-child {
+  margin-right: 0;
+}
+
+#scroll-top {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #ff0000;
+  color: #fff;
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  line-height: 40px;
+  border-radius: 50%;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.3s ease, visibility 0.3s ease;
+}
+
+#scroll-top i {
+  font-size: 20px;
 }
