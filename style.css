@@ -14,7 +14,6 @@
   height: 30px;
 }
 
-/* Stili globali */
 body {
   font-family: Arial, sans-serif;
   margin: 0;
@@ -41,7 +40,6 @@ p {
   color: #333;
 }
 
-/* Stili dell'intestazione */
 header {
   background-color: #fff;
   padding: 20px;
@@ -57,7 +55,6 @@ header {
   color: #0077be;
 }
 
-/* Stili del hero */
 .hero {
   background-color: #0077be;
   padding: 10px 0;
@@ -84,7 +81,6 @@ header {
   text-decoration: none;
 }
 
-/* Stili della sezione "Chi siamo" */
 .about {
   background-color: #fff;
   padding: 50px 0;
@@ -100,13 +96,11 @@ header {
   color: #666;
 }
 
-/* Stili del carosello */
 .carousel-item img {
   width: 100%;
   height: auto;
 }
 
-/* Stili del menu */
 .menu {
   background-color: #f8f8f8;
   padding: 50px 0;
@@ -132,7 +126,6 @@ header {
   color: #777;
 }
 
-/* Stili della sezione "Prenotazione" */
 .reservation {
   background-color: #fff;
   padding: 50px 0;
@@ -148,7 +141,6 @@ header {
   color: #666;
 }
 
-/* Stili della sezione "Contatti" */
 .contact {
   background-color: #f8f8f8;
   padding: 50px 0;
@@ -164,7 +156,6 @@ header {
   color: #777;
 }
 
-/* Stili del piede di pagina */
 .footer {
   background-color: #333;
   color: #fff;
