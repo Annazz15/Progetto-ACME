@@ -1,124 +1,242 @@
 <!DOCTYPE html>
-<html>
+<html lang="it">
+
 <head>
-	<link rel="stylesheet" href="style.css">
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <div class="container">
-    <style>
-      
-      header {
-        background-color: #1f4e78;
-        height: 100px;
-        position: relative;
-      }
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ristorante</title>
+  <!-- Collegamento al file CSS di Bootstrap -->
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
 
-      header::after {
-        content: "";
-        display: block;
-        position: absolute;
-        top: 100%;
-        left: 0;
-        width: 100%;
-        height: 2px; 
-        background-color: #1f4e78; 
-      }
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <!-- Collegamento al tuo file CSS personalizzato -->
+  <link rel="stylesheet" href="styles.css">
+</head>
 
-      header .container {
-        max-width: 1200px;
-        margin: 0 auto;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-      }
-
-      header img {
-        max-height: 80px;
-        margin: 0 auto;
-      }
-    </style>
-  </head>
-  <body>
-    <header>
-      <div class="container">
-        <div class="row">
-          <div class="col-md-12 text-center">
-            <img src="https://custom-images.strikinglycdn.com/res/hrscywv4p/image/upload/c_limit,fl_lossy,h_300,w_300,f_auto,q_auto/1161263/164832_330667.png" alt="Logo del ristorante">
+<body>
+  <!-- Intestazione -->
+  <header>
+    <div class="container">
+      <img src="https://centrocommercialetorvergata.it/wp-content/uploads/2022/05/LOGO-MACHAPOKE.jpeg" alt="Logo del ristorante" class="logo">
+      <!-- ... Altri elementi dell'intestazione ... -->
+    </div>
+    <div class=spacer1> </div>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand" href="#">Nome del Ristorante</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#about">Chi siamo</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#menu">Menu</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#reservation">Prenotazione</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">Contatti</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+  <div class=spacer> </div>
+  <section id="about" class="about">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <h2>Chi siamo</h2>
+          <p>Il nostro ristorante di poke è nato dall'amore per il cibo giapponese e hawaiano. Siamo sempre alla ricerca di ingredienti freschi e di alta qualità per creare i nostri piatti unici e deliziosi. Venite a scoprire il nostro menu!</p>
+          <p>Offriamo una varietà di poke bowl freschi e deliziosi con ingredienti di alta qualità. Prova uno dei nostri poke bowl speciali oggi stesso!</p>
+        </div>
+        <div class="col-md-6">
+          <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+              <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+              <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+              <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+              <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+            </ol>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="https://custom-images.strikinglycdn.com/res/hrscywv4p/image/upload/c_limit,fl_lossy,h_9000,w_1200,f_auto,q_auto/1161263/442463_500882.png" class="d-block w-100" alt="Immagine 1">
+              </div>
+              <div class="carousel-item">
+                <img src="https://custom-images.strikinglycdn.com/res/hrscywv4p/image/upload/c_limit,fl_lossy,h_9000,w_1200,f_auto,q_auto/1161263/729265_713763.jpg" class="d-block w-100" alt="Immagine 2">
+              </div>
+              <div class="carousel-item">
+                <img src="https://custom-images.strikinglycdn.com/res/hrscywv4p/image/upload/c_limit,fl_lossy,h_9000,w_1200,f_auto,q_auto/1161263/473693_776856.png" class="d-block w-100" alt="Immagine 3">
+              </div>
+              <div class="carousel-item">
+                <img src="https://custom-images.strikinglycdn.com/res/hrscywv4p/image/upload/c_limit,fl_lossy,h_9000,w_1200,f_auto,q_auto/1161263/961796_255625.png" class="d-block w-100" alt="Immagine 4">
+              </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="sr-only">Precedente</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="sr-only">Successivo</span>
+            </a>
           </div>
         </div>
       </div>
-    </header>
-	<title>Il tuo Ristorante di Poke - Benvenuti!</title>
-</div>
-</head>
-	<header>
-		<nav>
-			<ul>
-				<li><a href="#">Home</a></li>
-        <li><a href="#">Chi Siamo</a></li>
-				<li><a href="#">Menu</a></li>
-				<li><a href="#">Contatti</a></li>
-			</ul>
-		</nav>
-	</header>
-  <section id="chi-siamo">
-		<div class="about-us-container">
-			<h2>Chi siamo</h2>
-			<p>Il nostro ristorante di poke è nato dall'amore per il cibo giapponese e hawaiano. Siamo sempre alla ricerca di ingredienti freschi e di alta qualità per creare i nostri piatti unici e deliziosi. Venite a scoprire il nostro menu!</p>
-	<main>
-		<p>Offriamo una varietà di poke bowl freschi e deliziosi con ingredienti di alta qualità. Prova uno dei nostri poke bowl speciali oggi stesso!</p>
-		<section class="menu">
-			<h2>Il nostro Menu</h2>
-			<ul>
-				<li>
-				    <div class="row">
-      <div class="col-md-6">
-        <div class="menu-item">
-          <img src="https://custom-images.strikinglycdn.com/res/hrscywv4p/image/upload/c_limit,fl_lossy,h_9000,w_1200,f_auto,q_auto/1161263/487182_703032.jpg" alt="Salmone Poke">
-          <h3>Poke al Salmone</h3>
-          <p>Poke di riso con salmone fresco, avocado, edamame, cipolla rossa, alghe e salsa teriyaki.</p>
-          <span class="price">€9,90</span>
+    </div>
+  </section>
+  <div class=spacer> </div>
+
+  <!-- Hero -->
+  <section class="hero text-white text-center">
+    <div class="container">
+      <h1>Benvenuti al Ristorante</h1>
+      <p>Scoprite i sapori freschi e autentici hawaiani</p>
+      <a class="btn btn-light btn-lg" href="#reservation">Prenota un tavolo</a>
+    </div>
+  </section>
+  <div class=spacer> </div>
+
+  <!-- Menu -->
+  <section id="menu" class="menu">
+    <div class="container">
+      <h2>Il nostro menu</h2>
+      <p>Scopri i nostri poke più amati!</p>
+      <div class="row">
+        <div class="col-md-6">
+          <div class="card">
+            <img class="card-img-top" src="https://custom-images.strikinglycdn.com/res/hrscywv4p/image/upload/c_limit,fl_lossy,h_9000,w_1200,f_auto,q_auto/1161263/487182_703032.jpg" alt="Poke al Salmone">
+            <div class="card-body">
+              <h5 class="card-title">Poke al Salmone</h5>
+              <p class="card-text">Poke di riso con salmone fresco, avocado, edamame, cipolla rossa, alghe e salsa teriyaki.o</p>
+              <div class="price">€ 9,90</div>
+            </div>
+          </div>
         </div>
-      </div>
-      <div class="col-md-6">
-        <div class="menu-item">
-          <img src="https://custom-images.strikinglycdn.com/res/hrscywv4p/image/upload/c_limit,fl_lossy,h_9000,w_1200,f_auto,q_auto/1161263/299202_37676.jpg" alt="Tonno Poke">
-          <h3>Poke al Tonno</h3>
-          <p>Poke di riso con tonno fresco, avocado, mango, peperone, sesamo e salsa piccante.</p>
-          <span class="price">€10,90</span>
+        <div class="col-md-6">
+          <div class="card">
+            <img class="card-img-top" src="https://custom-images.strikinglycdn.com/res/hrscywv4p/image/upload/c_limit,fl_lossy,h_9000,w_1200,f_auto,q_auto/1161263/299202_37676.jpg" alt="Poke al Tonno">
+            <div class="card-body">
+              <h5 class="card-title">Poke al Tonno</h5>
+              <p class="card-text">Poke di riso con tonno fresco, avocado, mango, peperone, sesamo e salsa piccante.</p>
+              <div class="price">€ 10,90</div>
+            </div>
+          </div>
         </div>
-      </div>
-      <div class="col-md-6">
-        <div class="menu-item">
-          <img src="https://custom-images.strikinglycdn.com/res/hrscywv4p/image/upload/c_limit,fl_lossy,h_9000,w_1200,f_auto,q_auto/1161263/184482_689565.jpg" alt="Pollo Poke">
-          <h3>Poke al Pollo</h3>
-          <p>Poke di riso con pollo marinato, ananas, cetriolo, carote, mais e salsa BBQ.</p>
-          <span class="price">€8,90</span>
+        <div class="col-md-6">
+          <div class="card">
+            <img class="card-img-top" src="https://custom-images.strikinglycdn.com/res/hrscywv4p/image/upload/c_limit,fl_lossy,h_9000,w_1200,f_auto,q_auto/1161263/184482_689565.jpg" alt="Poke al Pollo">
+            <div class="card-body">
+              <h5 class="card-title">Poke al Pollo</h5>
+              <p class="card-text">Poke di riso con pollo marinato, ananas, cetriolo, carote, mais e salsa BBQ.</p>
+              <div class="price">€ 8,90</div>
+            </div>
+          </div>
         </div>
-      </div>
-      <div class="col-md-6">
-        <div class="menu-item">
-          <img src="https://custom-images.strikinglycdn.com/res/hrscywv4p/image/upload/c_limit,fl_lossy,h_9000,w_1200,f_auto,q_auto/1161263/40369_68142.jpg" alt="Tofu Poke">
-          <h3>Poke al Tofu</h3>
-          <p>Poke di riso con tofu, avocado, peperoni, pomodori secchi, mais e salsa al basilico.</p>
-          <span class="price">€7,90</span>
+        <div class="col-md-6">
+          <div class="card">
+            <img class="card-img-top" src="https://custom-images.strikinglycdn.com/res/hrscywv4p/image/upload/c_limit,fl_lossy,h_9000,w_1200,f_auto,q_auto/1161263/40369_68142.jpg" alt="Poke al Tofu">
+            <div class="card-body">
+              <h5 class="card-title">Poke al Tofu</h5>
+              <p class="card-text">Poke di riso con tofu, avocado, peperoni, pomodori secchi, mais e salsa al basilico.</p>
+              <div class="price">€ 7,90</div>
+            </div>
+          </div>
+        </div>
+  </section>
+
+  <!-- Prenotazione -->
+  <section id="reservation" class="reservation">
+    <div class="container">
+      <h2>Prenota un tavolo</h2>
+      <p>Contattaci per prenotare un tavolo nel nostro ristorante</p>
+      <form>
+        <div class="form-row">
+          <div class="form-group col-md-6">
+            <label for="name">Nome</label>
+            <input type="text" class="form-control" id="name" placeholder="Inserisci il tuo nome">
+          </div>
+          <div class="form-group col-md-6">
+            <label for="email">Email</label>
+            <input type="email" class="form-control" id="email" placeholder="Inserisci la tua email">
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="date">Data</label>
+          <input type="date" class="form-control" id="date">
+        </div>
+        <div class="form-group">
+          <label for="time">Ora</label>
+          <input type="time" class="form-control" id="time">
+        </div>
+        <div class="form-group">
+          <label for="guests">Numero di ospiti</label>
+          <input type="number" class="form-control" id="guests" min="1" max="10">
+        </div>
+        <button type="submit" class="btn btn-primary">Prenota</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- Contatti -->
+  <section id="contact" class="contact">
+    <div class="container">
+      <h2>Contatti</h2>
+      <p>Per qualsiasi informazione o richiesta, contattaci</p>
+      <div class="row">
+        <div class="col-md-6">
+          <h3>Informazioni di contatto</h3>
+          <p>Indirizzo: Via del Ristorante, 123, Torino</p>
+          <p>Telefono: 0123456789</p>
+          <p>Email: info@ristorante.com</p>
+        </div>
+        <div class="col-md-6">
+          <h3>Orari di apertura</h3>
+          <p>Lunedì - Venerdì: 12:00 - 15:00, 18:00 - 23:00</p>
+          <p>Sabato - Domenica: 12:00 - 23:00</p>
         </div>
       </div>
     </div>
-  </div>
-</section>
-				</li>
-			</ul>
-		</section>
-	</main>
-	<footer>
-		<p>Macha pokè &copy; 2023</p>
-     <div class="social">
-      <a href="#"><img src="fa-brands fa-facebook" style="color: #ffffff;" alt="Logo Facebook" width="30" height="30"></a>
-      <a href="#"><img src="https://png.pngtree.com/png-vector/20221018/ourmid/pngtree-instagram-icon-png-image_6315974.png" alt="Logo Instagram" width="30" height="30"></a>
-      <a href="#"><img src="https://png.pngtree.com/png-vector/20221018/ourmid/pngtree-twitter-social-media-round-icon-png-image_6315985.png" alt="Logo Twitter" width="30" height="30"></a>
+  </section>
+
+  <!-- Piede di pagina -->
+  <footer class="footer">
+    <div class="container">
+      <p>&copy; 2023 Ristorante. Tutti i diritti riservati.</p>
     </div>
-    <div class="delivery">
-      <a href="#"><img src="https://companieslogo.com/img/orig/TKWY.AS-88c0f96c.png?t=1659645684" alt="Logo Just Eat" width="30" height="30"></a>
-      <a href="#"><img src="https://play-lh.googleusercontent.com/iTpx7rDQGJQd4dHVwhsKmSpQv72zyJ6M4df8smHO7rGCOJUKeKZtynrft0NWlnf47w" alt="Logo Glovo" width="30" height="30"></a>
-      <a href="#"><img src="https://yeoldeorchard.com/wp-content/uploads/2020/04/5310366-uber-eats-logo-png-and-vector-logo-download-uber-eats-png-3500_3500_preview.png" alt="Logo Uber Eats" width="30" height="30"></a>
+    <div class=spacer> </div>
+    <div class="social-icons">
+      <a href="https://www.facebook.com/tuapagina" target="_blank" class="social-icon"><i class="fab fa-facebook-f"></i></a>
+      <a href="https://www.twitter.com/tuoaccount" target="_blank" class="social-icon"><i class="fab fa-twitter"></i></a>
+      <a href="https://www.instagram.com/tuoaccount" target="_blank" class="social-icon"><i class="fab fa-instagram"></i></a>
+    </div>
+  </footer>
+
+  <!-- Collegamento ai file JavaScript di Bootstrap -->
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+  <!-- Script JavaScript personalizzato -->
+  <script>
+    // Inizializza il carosello di Bootstrap
+    $(document).ready(function() {
+      $('.carousel').carousel();
+    });
+  </script>
+  <a href="#" id="scroll-top"><i class="fas fa-arrow-up"></i></a>
+  <script>
+    document.addEventListener("DOMContentLoaded", function(event) {
+      var script = document.createElement('script');
+      script.src = 'script.js';
+      document.body.appendChild(script);
+    });
+  </script>
+</body>
+
+</html>
