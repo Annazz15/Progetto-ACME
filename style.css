@@ -48,15 +48,15 @@ header {
 .navbar-brand {
   font-size: 24px;
   font-weight: bold;
-  color: #0077be;
+  color: #428B99;
 }
 
 .navbar-nav li a {
-  color: #0077be;
+  color: #428B99;
 }
 
 .hero {
-  background-color: #0077be;
+  background-color: #428B99;
   padding: 10px 0;
 }
 
@@ -72,7 +72,7 @@ header {
 }
 
 .btn.btn-light.btn-lg {
-  background-color: #ff5733;
+  background-color: #E0AC14;
   color: #fff;
   font-size: 1.25rem;
   padding: 12px 24px;
@@ -157,7 +157,7 @@ header {
 }
 
 .footer {
-  background-color: #333;
+  background-color: #428B99;
   color: #fff;
   padding: 20px 0;
   text-align: center;
