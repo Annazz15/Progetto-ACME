@@ -172,6 +172,11 @@ header {
   color: #fff;
 }
 
+.logo img {
+  width: 40px; /* Imposta la larghezza desiderata */
+  height: auto; /* Mantiene l'altezza proporzionale */
+}
+
 .social-icons {
   margin-top: 20px;
   text-align: center;
