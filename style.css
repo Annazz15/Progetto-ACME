@@ -156,11 +156,12 @@ header {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 20px;
-  row-gap: 20px;
+  row-gap: 40px;
 }
 
 .gallery-item {
   position: relative;
+  margin-bottom: 40px;
 }
 
 .gallery-item img {
