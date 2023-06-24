@@ -173,8 +173,8 @@ header {
 }
 
 .logo img {
-  width: 40px; /* Imposta la larghezza desiderata */
-  height: auto; /* Mantiene l'altezza proporzionale */
+  width: 30px; 
+  height: auto; 
 }
 
 .social-icons {
