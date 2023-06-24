@@ -165,6 +165,7 @@ header {
 .gallery-item img {
   width: 100%;
   height: auto;
+  object-fit: cover;
 }
 
 @media (max-width: 768px) {
