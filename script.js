@@ -1,7 +1,6 @@
 var scrollButton = document.getElementById("scroll-top");
 
 window.addEventListener("scroll", function () {
-
   var scrollPosition =
     window.pageYOffset ||
     document.documentElement.scrollTop ||
@@ -39,9 +38,28 @@ scrollButton.addEventListener("click", function (e) {
     behavior: "smooth"
   });
 });
-
-
-if (!isCookieAccepted()) {
-  document.querySelector('.cookie-banner').style.display = 'block'; 
+// Funzione per nascondere la finestra dei cookie
+function hideCookieWindow() {
+  var cookieWindow = document.getElementById("cookie-window");
+  cookieWindow.style.display = "none";
 }
 
+// Funzione per gestire il click sul pulsante "Accetta"
+function handleAccept() {
+  // Puoi eseguire altre azioni qui, come impostare i cookie o eseguire azioni personalizzate
+  hideCookieWindow();
+}
+
+// Funzione per gestire il click sul pulsante "Rifiuta"
+function handleReject() {
+  // Puoi eseguire altre azioni qui, come bloccare i cookie o eseguire azioni personalizzate
+  hideCookieWindow();
+}
+
+// Aggiungi gli event listener ai pulsanti
+document
+  .getElementById("accept-button")
+  .addEventListener("click", handleAccept);
+document
+  .getElementById("reject-button")
+  .addEventListener("click", handleReject);
