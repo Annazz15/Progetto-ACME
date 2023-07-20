@@ -42,3 +42,14 @@
 * CSS
 * JavaScript
 
+
+# Siti utilizzati per test performance:
+
+* Pagespeed insight
+* Seoptimer
+
+
+# Test validazione:
+
+* Markup validation service
+
