@@ -1,4 +1,8 @@
 # Progetto pagina web MachaPoke
+
+* Anno accademico 2022/2023
+* Castellano Annalisa -m. 884
+* 
 * corso web design 1, ACME Novara
 
 * Link sito web creato: _[MACHA POKE](https://macha-poke.netlify.app)_
