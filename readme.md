@@ -1,10 +1,11 @@
 # Progetto pagina web MachaPoke
 
 * Anno accademico 2022/2023
-* Castellano Annalisa -m. 884
-* 
-* corso web design 1, ACME Novara
+  Castellano Annalisa -m. 884
+  Prof. Baccan Matteo
+  Corso web design 1, ACME Novara
 
+* Realizzazione di una nuova grafica di sito aziendale mono-pagina per l'azienda "Macha Poke"
 * Link sito web creato: _[MACHA POKE](https://macha-poke.netlify.app)_
 
 
