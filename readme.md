@@ -6,15 +6,18 @@
 * Corso web design 1, ACME Novara
 
 
-# Scopo del repository
+# Scopo del repository:
 
 * Realizzazione di una nuova grafica di sito aziendale mono-pagina per l'azienda "Macha Poke"
 * Link sito web creato: _[MACHA POKE](https://macha-poke.netlify.app)_
 
 
-In questo progetto ho voluto fare il restyle della pagina web del ristorante "MachaPoke".
+  In questo progetto ho voluto fare il restyle della pagina web del ristorante "MachaPoke".
 
-L'obiettivo è quello di creare un sito web html responsive che comprendesse i principali elementi della pagina, ovvero:
+
+# Elementi principali della pagina:
+
+   L'obiettivo è quello di creare un sito web html responsive che comprendesse i principali elementi della pagina, ovvero:
 
 
 * Nome del ristorante
