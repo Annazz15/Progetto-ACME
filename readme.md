@@ -20,8 +20,8 @@
 
 * Nome del ristorante
 * Logo del ristorante
-* Hamburger menù per semplificare la navigazione nel sito
-* Descrizione del ristorante (chi siamo, dove trovarci)
+* Burger menù per semplificare la navigazione nel sito
+* Descrizione del ristorante (chi siamo)
 * Descrizione dei prodotti offerti dal ristorante
 * Sezione form per le prenotazioni
 * Gallery
