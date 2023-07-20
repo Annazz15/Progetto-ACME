@@ -19,9 +19,13 @@
 
 * Nome del ristorante
 * Logo del ristorante
+* Hamburger menù per semplificare la navigazione nel sito
 * Descrizione del ristorante (chi siamo, dove trovarci)
 * Descrizione dei prodotti offerti dal ristorante
-* Footer con contatti e profili social 
+* Sezione form per le prenotazioni
+* Gallery
+* Footer con contatti, info, copyright e profili social
+* Cookies
 
 
 # Per riuscire a realizzarlo ho utilizzato:
