@@ -14,7 +14,7 @@
 
 # Elementi principali della pagina:
 
-   L'obiettivo è quello di creare un sito web html responsive che comprendesse i principali elementi della pagina, ovvero:
+  L'obiettivo è quello di creare un sito web html responsive che comprendesse i principali elementi della pagina, ovvero:
 
 
 * Nome del ristorante
@@ -24,8 +24,21 @@
 * Descrizione dei prodotti offerti dal ristorante
 * Sezione form per le prenotazioni
 * Gallery
-* Footer con contatti, info, copyright e profili social
+* Footer con contatti, orari, copyright e profili social
 * Cookies
 
 
 # Per riuscire a realizzarlo ho utilizzato:
+
+* Bootstrap 4.5.2
+* Font-awesome
+* Codepen.io
+* Chat Gpt
+
+
+# Caratteristiche struttura ed elementi pagina:
+
+* Html5
+* CSS
+* JavaScript
+
