@@ -1,9 +1,9 @@
 # Progetto pagina web MachaPoke
 
 * Anno accademico 2022/2023
-  Castellano Annalisa -m. 884
-  Prof. Baccan Matteo
-  Corso web design 1, ACME Novara
+* Castellano Annalisa -m. 884
+* Prof. Baccan Matteo
+* Corso web design 1, ACME Novara
 
 
 # Scopo del repository
