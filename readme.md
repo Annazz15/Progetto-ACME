@@ -9,7 +9,7 @@
 
 # Scopo del repository:
 
-* Realizzazione di una nuova grafica di sito aziendale mono-pagina per l'azienda "Macha Poke"
+* Realizzazione di una nuova grafica di un sito aziendale mono-pagina per il ristorante "Macha Poke"
 * Link sito web creato: _[MACHA POKE](https://macha-poke.netlify.app)_
 
 
