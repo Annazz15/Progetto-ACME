@@ -12,9 +12,6 @@
 * Link sito web creato: _[MACHA POKE](https://macha-poke.netlify.app)_
 
 
-  In questo progetto ho voluto fare il restyle della pagina web del ristorante "MachaPoke".
-
-
 # Elementi principali della pagina:
 
    L'obiettivo è quello di creare un sito web html responsive che comprendesse i principali elementi della pagina, ovvero:
