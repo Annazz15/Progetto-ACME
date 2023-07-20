@@ -5,6 +5,9 @@
   Prof. Baccan Matteo
   Corso web design 1, ACME Novara
 
+
+# Scopo del repository
+
 * Realizzazione di una nuova grafica di sito aziendale mono-pagina per l'azienda "Macha Poke"
 * Link sito web creato: _[MACHA POKE](https://macha-poke.netlify.app)_
 
